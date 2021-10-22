@@ -7,21 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+How to Create Laravel 8 Vue JS CRUD, how to implement vue js crud example with Laravel 8.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+how to Create a crude API in Laravel 8, for example Vue.Js Spa Crude in Laravel 8.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+In this laravel 8 vue js crud example, you will learn how to implement the laravel 8 vue js crud (create, read, update and delete) spa with Vue js router and laravel 8.
 
-## Learning Laravel
+## Laravel 8 Vue JS CRUD (SPA) Example
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
@@ -33,33 +27,53 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Download Laravel 8
+- Configure Database
+- Create Migration, Model and Controller
+- Install Laravel Vue UI
+- Add Routes In web.php
+- Add Vue Js Components
+- Add Vue Js Routes
+- Add Vue App.js
+- Run Server
 
-## Contributing
+## Instalation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Step 1 Download And Install 
 
-## Security Vulnerabilities
+- composer install
+- npm install
+- cp .env.example .env
+- php artisan key:generate
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Step 2:- Configure Database
 
-## License
+- DB_CONNECTION=mysql 
+- DB_HOST=127.0.0.1 
+- DB_PORT=3306 
+- DB_DATABASE=DB_NAME
+- DB_USERNAME=DB_USER
+- DB_PASSWORD=DB_PASSWORD
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+##  Migrate the database
+
+php artisan migrate
+
+## Seed the database
+
+- php artisan db:seed
+
+## Run Laravel Vue IN (run command in separate terminal)
+
+- npm run watch
+- php artisan serve
+
+## OPEN BROWSER
+
+- Open the URL in the browser: http://127.0.0.1:8000
+
+
+
+
